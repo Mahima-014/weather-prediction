@@ -1,4 +1,4 @@
-name: clima
+name: climate
 description: A new Flutter application.
 
 version: 1.0.0+1
@@ -16,12 +16,10 @@ dependencies:
 
   http: ^0.12.2
 
-  flutter_spinkit: ^4.1.2+1
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  change_app_package_name: ^0.1.2
+
 
 flutter:
   uses-material-design: true

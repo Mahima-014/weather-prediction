@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/weather.dart';
 import 'location_screen.dart';
-import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:clima/services/weather.dart';
+import 'package:climate/services/weather.dart';
 
 
 
@@ -32,11 +31,12 @@ class _LoadingScreenState extends State<LoadingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
-      body: Center(
-        child: SpinKitCircle(
-          color: Colors.black,
-          size: 80.0,
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("images/0.gif"),
+            fit: BoxFit.cover,
+          ),
         ),
       ),
     );

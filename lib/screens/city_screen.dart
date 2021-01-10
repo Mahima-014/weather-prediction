@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:clima/utilities/constants.dart';
+import 'package:climate/utilities/constants.dart';
 
 import '../utilities/constants.dart';
 

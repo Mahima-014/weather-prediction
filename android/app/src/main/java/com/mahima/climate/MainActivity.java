@@ -1,4 +1,4 @@
-package co.appbrewery.clima;
+package com.mahima.climate;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
