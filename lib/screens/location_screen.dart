@@ -4,7 +4,6 @@ import 'package:clima/utilities/constants.dart';
 import 'package:clima/services/weather.dart';
 import 'city_screen.dart';
 
-import 'package:clima/services/weather.dart';
 
 class LocationScreen extends StatefulWidget {
   LocationScreen({this.locationWeather});
